@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/librarian_background"
+    android:orientation="vertical"
+    tools:context=".activity_login">
+    <TextView
+        android:id="@+id/displayusername"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:fontFamily="serif"
+        android:text="Welcome,"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/generatebarcode_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_qr_code_2_24"
+                android:padding="22dp"
+                android:text="Generate barcode"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/aud_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_library_add_24"
+                android:padding="22dp"
+                android:text="ADD/UPDATE/DELETE BOOKS"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/issuesubmit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_library_books_24"
+                android:padding="22dp"
+                android:text="ISSUE/SUBMIT BOOKS"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/reservationRequests_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_approval_24"
+                android:padding="22dp"
+                android:text="Approve/deny Reservations"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/search_lib_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:padding="22dp"
+                android:text="Search Book"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/generatereports_lib_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_insert_drive_file_24"
+                android:padding="22dp"
+                android:text="Generate Reports"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

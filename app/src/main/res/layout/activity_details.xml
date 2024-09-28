@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/student_background"
+    android:orientation="vertical"
+    tools:context=".activity_details">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@color/edge"
+        android:gravity="center"
+        android:text="ISSUE/SUBMIT/FINE DETAILS"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+</LinearLayout>

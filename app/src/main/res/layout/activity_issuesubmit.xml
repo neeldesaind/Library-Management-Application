@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/librarian_background"
+    android:orientation="vertical"
+    tools:context=".activity_issuesubmit">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/tvtry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@color/edge"
+        android:gravity="center"
+        android:text="ISSUE/SUBMIT BOOK"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/studid"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+                    android:drawablePadding="20dp"
+                    android:hint="Enter Student ID"
+                    android:padding="20dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+                <Button
+                    android:id="@+id/stuid_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="28dp"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/ic_baseline_document_scanner_24"
+                    android:padding="10dp"
+                    android:text="SCAN ID"
+
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/isbn"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+                    android:drawablePadding="20dp"
+                    android:hint="Enter Book Isbn"
+                    android:padding="20dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+                <Button
+                    android:id="@+id/isbn_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="28dp"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/ic_baseline_qr_code_scanner_24"
+                    android:padding="10dp"
+                    android:text="SCAN BOOK"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/issue_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableLeft="@drawable/ic_baseline_playlist_add_24"
+                        android:padding="10dp"
+                        android:text="ISSUE BOOK"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/submit_btn"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="28dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableLeft="@drawable/ic_baseline_playlist_add_check_circle_24"
+                        android:padding="10dp"
+                        android:text="SUBMIT BOOK"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+            </TableLayout>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
