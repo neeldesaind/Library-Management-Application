@@ -55,6 +55,7 @@ Contact:
 
   **Screenshots:**
 **Registration Page with email verification**
+  
 ![image](https://github.com/user-attachments/assets/5dc9cf18-a0a4-478b-9c8b-095ef04d8b6b)
 ![image](https://github.com/user-attachments/assets/d66467b0-e538-4507-9e33-2daf92792482)
 ![image](https://github.com/user-attachments/assets/bcea9a4a-fb15-4a60-aa37-274e2ccb8b3c)
