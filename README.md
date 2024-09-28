@@ -1,4 +1,4 @@
-**Library Management System**
+![image](https://github.com/user-attachments/assets/6ea98bf7-5814-485b-8930-95bd858a4f1a)**Library Management System**
 
 Introduction
 The Library Management System is a comprehensive platform that enables students and librarians to manage library-related tasks efficiently. It features functionalities for issuing books, paying fines, and managing book inventories, making library operations more streamlined and user-friendly.
@@ -52,3 +52,6 @@ Contact:
 - Name: Neel Desai
 - Email: your.email@example.com
 - LinkedIn: https://www.linkedin.com/in/neeldesaind
+
+- ![image](https://github.com/user-attachments/assets/5dc9cf18-a0a4-478b-9c8b-095ef04d8b6b)
+
