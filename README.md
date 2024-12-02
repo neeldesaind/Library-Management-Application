@@ -147,4 +147,3 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ![Change Password Menu](https://github.com/user-attachments/assets/55f2f4b9-9da7-4faa-821a-5f5d75207035)
 ![Change Password Option](https://github.com/user-attachments/assets/89ea9bf3-bcff-4aeb-bfc2-9ddb50953c7d)
 ![Logout Menu](https://github.com/user-attachments/assets/9426b06f-4f20-4fad-9477-0b84c922eb5e)
-Use proper table format for images 3 image per row
